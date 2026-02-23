@@ -1,111 +1,106 @@
 <!DOCTYPE html>
+
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Автореферат</title>
-    <link rel="stylesheet" href="../master_style.css">
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <a class="brand" href="../index.htm">
-          <span class="logof">
-            <img src="../assets/logo.svg" alt="Логотип" />
-          </span> Главная </a>
-        <nav class="primary">
-          <a href="../contacts/private.htm">Резюме</a>
-          <a href="../index.htm">Биография</a>
-          <a href="../diss/index.htm">Реферат</a>
-          <a href="../library/index.htm">Библиотека</a>
-          <a href="../links/index.htm">Ссылки</a>
-          <a href="../links/report.htm">Отчет о поиске</a>
-          <a href="../ind/index.htm">Индивидуальный</a>
-          <a href="./indexe.htm">
-            <img src="../assets/en.png" alt="Английский" title="Английский" width="24" height="20">
-          </a>
-        </nav>
-      </header>
-      <!-- Содержание -->
-      <div class="section">
-        <h1>Автореферат по теме магистерской диссертации</h1>
-		<div class="notice">
-  ⚠️ <b>Внимание:</b> магистерская работа находится в разработке. 
-  Некоторые данные и формулировки могут измениться по мере завершения исследования.
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Abstract</title>
+<link href="../master_style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+<header class="header">
+<a class="brand" href="../index.htm">
+<span class="logof">
+<img alt="Логотип" src="../assets/logo.svg"/>
+</span> Home </a>
+<nav class="primary">
+<a href="../contacts/private.htm">Résumé</a>
+<a href="../index.htm">Biography</a>
+<a href="../diss/index.htm">Abstract</a>
+<a href="../library/index.htm">Library</a>
+<a href="../links/index.htm">Links</a>
+<a href="../links/report.htm">Search report</a>
+<a href="../ind/index.htm">Individual</a>
+<a href="./indexe.htm">
+<img alt="Английский" height="20" src="../assets/en.png" title="Английский" width="24"/>
+</a>
+</nav>
+</header>
+ Contents 
+<div class="section">
+<h1>Abstract on the topic of the master's thesis</h1>
+<div class="notice">
+  ⚠️ <b>Attention:</b> the master's thesis is under development. 
+  Some data and wording may change as the research is finalized.
 </div>
-        <p>
-          <b>Тема:</b> Интеллектуальный планировщик задач
+<p>
+<b>Topic:</b> Intelligent task planner
         </p>
-        <h2>Содержание</h2>
-        <ol>
-          <li>
-            <a href="#vvedenie">Введение</a>
-          </li>
-          <li>
-            <a href="#vvedenie">Цель и основная идея проекта</a>
-          </li>
-          <li>
-            <a href="#vvedenie">Функциональные возможности приложения</a>
-          </li>
-          <li>
-            <a href="#vvedenie">Выбранные технологии и архитектурные решения</a>
-          </li>
-          <li>
-            <a href="#vvedenie">Разработка, интеграция и оценка эффективности</a>
-          </li>
-          <li>
-            <a href="#vvedenie">Выводы</a>
-          </li>
-          <li>
-            <a href="#literatura">Список литературы</a>
-          </li>
-        </ol>
-      </div>
-      <!-- Основная часть автореферата -->
-      <div class="section">
-        <h2 id="vvedenie">Введение</h2>
-        <p>Работа посвящена разработке веб-приложения для управления проектами и задачами в малых и средних командах. Актуальность темы обоснована ростом сложности проектов, распространением удалённой/гибридной работы и тем, что значительная часть рабочего времени уходит на координацию и «работу о работе», а не на выполнение задач. На этом фоне инструменты, дающие прозрачность процессов и удобное управление задачами в реальном времени, становятся критически важными.</p>
-        <h2 id="cel">1 Цель и основная идея проекта</h2>
-        <p>Цель — создать интеллектуальный планировщик задач с современным интерфейсом и функциями управления задачами, сопоставимыми с популярными системами, но более ориентированный на простоту освоения и практическую пользу.
-Ключевая «интеллектуальность» реализована как модуль логики контроля переходов задач между состояниями (по сути, конечный автомат с допустимыми переходами). Это уменьшает число логических ошибок в процессе работы и задаёт формализованные правила движения задач по этапам.</p>
-        <h2 id="func">2 Функциональные возможности приложения</h2>
-        <p>Работа посвящена разработке веб-приложения — интеллектуального планировщика задач для управления проектами и задачами в малых и средних командах. Актуальность темы связана с ростом сложности проектов, распространением удалённого и гибридного формата работы и тем, что значительная часть времени сотрудников уходит на координацию и организационные действия вместо непосредственного выполнения задач. В этих условиях инструменты, обеспечивающие прозрачность процессов, удобное распределение ответственности и оперативное обновление статусов, становятся особенно востребованными.
-
-Цель проекта — создать интеллектуальный планировщик задач с современным интерфейсом и практичным набором функций, ориентированный на простоту освоения и повышение эффективности командной работы. Под «интеллектуальностью» в работе понимается реализация формализованной логики контроля переходов задач между состояниями: система задаёт допустимые перемещения задач по этапам и тем самым снижает риск логических ошибок, делает процесс более упорядоченным и предсказуемым. В результате разработано веб-приложение, которое поддерживает регистрацию и вход пользователей, создание, редактирование и отслеживание задач, назначение исполнителей и выбор приоритетов, работу с Kanban-доской с настраиваемыми колонками, перенос задач между колонками с помощью перетаскивания, а также адаптивный интерфейс для различных устройств.
-
-Техническая реализация построена по клиент-серверной модели. Серверная часть выполнена на Python с использованием FastAPI, что позволяет быстро и удобно организовать REST API, а для работы с данными применён ORM-подход через SQLAlchemy. В качестве системы управления базами данных выбрана PostgreSQL, поскольку она обеспечивает надёжное хранение данных, поддержку транзакций и удобство масштабирования в условиях многопользовательской работы. Клиентская часть реализована на HTML, CSS и JavaScript без тяжёлых фреймворков: это упрощает развёртывание и снижает «вес» приложения, сохраняя интерактивность за счёт fetch-запросов, работы с DOM, событийной модели и асинхронных операций. Для безопасности используются JWT-токены и хэширование паролей (bcrypt), что повышает защищённость доступа и данных пользователей.
-
-Таким образом, в работе создан и описан полнофункциональный интеллектуальный планировщик задач в формате веб-приложения, включающий Kanban-подход, механики удобного управления задачами и надёжную серверную архитектуру на FastAPI и PostgreSQL. Существенным результатом является модуль логики, контролирующий корректность переходов задач между состояниями и повышающий надёжность управления рабочим процессом. В качестве дальнейших направлений развития могут рассматриваться расширение функциональности управления проектами (сроки, напоминания, подзадачи), добавление аналитики и дашбордов, интеграции с внешними сервисами и дальнейшая оптимизация производительности и масштабируемости.</p>
-        <h2 id="vybr">3 Выбранные технологии и архитектурные решения</h2>
-        <p>Серверная часть построена на Python + FastAPI, что даёт быстрый REST API и удобную структуру разработки. Для работы с данными используется ORM-подход через SQLAlchemy, а СУБД выбрана PostgreSQL (надежность, транзакционность, масштабируемость под многопользовательскую работу).
-Клиентская часть сделана на нативных HTML/CSS/JavaScript без тяжёлых фреймворков — это снижает порог развертывания и уменьшает «вес» приложения, при этом сохраняет интерактивность (fetch-запросы, работа с DOM, события, async/await).</p>
-        <h2 id="razr">4 Разработка, интеграция и оценка эффективности</h2>
-        <p>Описан процесс разработки: от проектирования моделей (пользователь, задача, колонка) до реализации API и интерфейса. Для безопасности применены JWT-токены и хэширование паролей (bcrypt).
-Отдельно рассматривается блок аналитики: предлагаются метрики продуктивности (например, время создания первого проекта, частота ошибок, нагрузка «на координацию») и улучшения за счёт подсказок, валидации и механик помощи (умная помощь). Делается акцент на снижении времени освоения и ускорении решения типовых проблем пользователя.</p>
-	<h2 id="vyvody">5 Выводы</h2>
-        <p>В работе создан и описан полнофункциональный интеллектуальный планировщик задач в формате веб-приложения: с Kanban-доской, перетаскиванием задач, аутентификацией и серверной архитектурой на FastAPI + PostgreSQL. Важной особенностью выступает модуль формализованной «интеллектуальной» логики, который контролирует корректность переходов задач между состояниями и тем самым повышает надежность процесса управления задачами.
-Также обозначен потенциал развития: расширение управления проектами (сроки, напоминания, подзадачи), аналитические дашборды и прогнозирование, интеграции с внешними сервисами и дальнейшая оптимизация масштабируемости.</p>
-        <h2 id="literatura">Список литературы</h2>
+<h2>Contents</h2>
 <ol>
-          <li>Пульс профессии, 2023 – Текст : электронный // Project Management Institute : официальный сайт. – URL: https://www.pmi.org/learning/thought-leadership/pulse (дата обращения: 29.05.2025).</li>
-          <li>Высокая цена низкой эффективности, 2023 – Текст : электронный // Project Management Institute : официальный сайт. – URL: https://www.pmi.org/learning/thought-leadership/pulse/high-cost-low-performance (дата обращения: 29.05.2025).</li>
-          <li>Будущее работы в Европе – Текст : электронный // McKinsey &amp; Company : официальный сайт. – URL: https://www.mckinsey.com/featured-insights/future-of-work/the-future-of-work-in-europe (дата обращения: 29.05.2025).</li>
-          <li>Глобальный индекс «Анатомия работы», 2023 – Текст : электронный // Asana : официальный сайт. – URL: https://asana.com/resources/anatomy-of-work (дата обращения: 29.05.2025).</li>
-          <li>Социальная экономика: раскрытие ценности и продуктивности с помощью социальных технологий – Текст : электронный // McKinsey Global Institute : официальный сайт. – URL: https://www.mckinsey.com/industries/public-and-social-sector/our-insights/the-social-economy-unlocking-value-and-productivity-through-social-technologies (дата обращения: 29.05.2025).</li>
-          <li>Что мы узнали об удалённой работе – Текст : электронный // Harvard Business Review : официальный сайт. – URL: https://hbr.org/2021/08/what-weve-learned-about-remote-work (дата обращения: 29.05.2025).</li>
-          <li>Состояние глобального рабочего места, 2023 – Текст : электронный // Gallup : официальный сайт. – URL: https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx (дата обращения: 29.05.2025).</li>
-          <li>Отчёт CHAOS, 2020 – Текст : электронный // The Standish Group : официальный сайт. – URL: https://www.standishgroup.com/sample_research_files/CHAOSReport2020.pdf (дата обращения: 29.05.2025).</li>
-          <li>Совокупный экономический эффект Asana – Текст : электронный // Forrester : официальный сайт. – URL: https://asana.com/resources/forrester-total-economic-impact-asana (дата обращения: 29.05.2025).</li>
-          <li>Отчёт о состоянии Agile, 2023 – Текст : электронный // VersionOne : официальный сайт. – URL: https://stateofagile.com/ (дата обращения: 29.05.2025).</li>
-          <li>Цифровая трансформация в России: аналитический доклад – Текст : электронный // Аналитический центр при Правительстве РФ : официальный сайт. – URL: https://ac.gov.ru/publication/a/28858/ (дата обращения: 29.05.2025).</li>
-          <li>Jira – Текст : электронный // Atlassian : официальный сайт. – URL: https://www.atlassian.com/software/jira (дата обращения: 29.05.2025).</li>
-          <li>Trello – Текст : электронный // Trello : официальный сайт. – URL: https://trello.com/ (дата обращения: 29.05.2025).</li>
-          <li>Asana – Текст : электронный // Asana : официальный сайт. – URL: https://asana.com/ (дата обращения: 29.05.2025).</li>
+<li>
+<a href="#vvedenie">Introduction</a>
+</li>
+<li>
+<a href="#vvedenie">Goal and main idea of the project</a>
+</li>
+<li>
+<a href="#vvedenie">Application functionality</a>
+</li>
+<li>
+<a href="#vvedenie">Selected technologies and architectural decisions</a>
+</li>
+<li>
+<a href="#vvedenie">Development, integration, and performance evaluation</a>
+</li>
+<li>
+<a href="#vvedenie">Conclusions</a>
+</li>
+<li>
+<a href="#literatura">References</a>
+</li>
 </ol>
-      </div>
-      <footer>
-        <p>© Махалин С.А., 2025</p>
-      </footer>
-    </div>
-  </body>
+</div>
+ Основная часть автореферата 
+<div class="section">
+<h2 id="vvedenie">Introduction</h2>
+<p>This work focuses on developing a web application for managing projects and tasks in small and medium-sized teams. The relevance of the topic is driven by the growing complexity of projects, the spread of remote/hybrid work, and the fact that a significant share of working time goes to coordination and 'work about work' rather than to completing tasks. Against this background, tools that provide process transparency and convenient real-time task management become critically important.</p>
+<h2 id="cel">1 Goal and main idea of the project</h2>
+<p>The goal is to create an intelligent task planner with a modern interface and task-management features comparable to popular systems, but more focused on ease of adoption and practical value.
+The key 'intelligence' is implemented as a logic module that controls task transitions between states (essentially, a finite-state machine with allowed transitions). This reduces the number of logical errors in the workflow and defines formalized rules for moving tasks through stages.</p>
+<h2 id="func">2 Application functionality</h2>
+<p>As a result, a web application was developed that supports user registration and login (authentication), creating, editing, and tracking tasks, assigning executors and setting priorities, working with a Kanban board with customizable columns and moving tasks between columns via drag-and-drop, as well as a responsive interface for different devices.</p>
+<h2 id="vybr">3 Selected technologies and architectural decisions</h2>
+<p>The server side is built with Python + FastAPI, which provides a fast REST API and a convenient development structure. For data access, an ORM approach is used via SQLAlchemy, and PostgreSQL was chosen as the DBMS (reliability, transactional consistency, and scalability for multi-user work).
+The client side is implemented with plain HTML/CSS/JavaScript without heavy frameworks—this lowers the deployment threshold and reduces the application's 'weight' while preserving interactivity (fetch requests, DOM manipulation, events, async/await).</p>
+<h2 id="razr">4 Development, integration, and performance evaluation</h2>
+<p>The development process is described—from designing the data models (user, task, column) to implementing the API and the interface. For security, JWT tokens and password hashing (bcrypt) are used.
+An analytics block is also considered separately: productivity metrics are proposed (for example, time to create the first project, error frequency, and coordination overhead) along with improvements through hints, validation, and assistance mechanisms (Smart Help). Emphasis is placed on reducing onboarding time and speeding up the resolution of typical user issues.</p>
+<h2 id="vyvody">5 Conclusions</h2>
+<p>The work results in a full-featured intelligent task planner implemented as a web application: with a Kanban board, drag-and-drop, authentication, and a server architecture based on FastAPI + PostgreSQL. A key feature is the module of formalized 'intelligent' logic that controls the correctness of task transitions between states, thereby increasing the reliability of the task management process.
+Further development potential is also outlined: expanded project management (deadlines, reminders, subtasks), analytical dashboards and forecasting, integrations with external services, and further scalability optimization.</p>
+<h2 id="literatura">References</h2>
+<ol>
+<li>Pulse of the Profession 2023 – Electronic resource // Project Management Institute : official website. – URL: https://www.pmi.org/learning/thought-leadership/pulse (accessed: 29.05.2025).</li>
+<li>The High Cost of Low Performance 2023 – Electronic resource // Project Management Institute : official website. – URL: https://www.pmi.org/learning/thought-leadership/pulse/high-cost-low-performance (accessed: 29.05.2025).</li>
+<li>The future of work in Europe – Electronic resource // McKinsey &amp; Company : official website. – URL: https://www.mckinsey.com/featured-insights/future-of-work/the-future-of-work-in-europe (accessed: 29.05.2025).</li>
+<li>Anatomy of Work Global Index 2023 – Electronic resource // Asana : official website. – URL: https://asana.com/resources/anatomy-of-work (accessed: 29.05.2025).</li>
+<li>The social economy: Unlocking value and productivity through social technologies – Electronic resource // McKinsey Global Institute : official website. – URL: https://www.mckinsey.com/industries/public-and-social-sector/our-insights/the-social-economy-unlocking-value-and-productivity-through-social-technologies (accessed: 29.05.2025).</li>
+<li>What We've Learned About Remote Work – Electronic resource // Harvard Business Review : official website. – URL: https://hbr.org/2021/08/what-weve-learned-about-remote-work (accessed: 29.05.2025).</li>
+<li>State of the Global Workplace 2023 – Electronic resource // Gallup : official website. – URL: https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx (accessed: 29.05.2025).</li>
+<li>Chaos Report 2020 – Electronic resource // The Standish Group : official website. – URL: https://www.standishgroup.com/sample_research_files/CHAOSReport2020.pdf (accessed: 29.05.2025).</li>
+<li>The Total Economic Impact of Asana – Electronic resource // Forrester : official website. – URL: https://asana.com/resources/forrester-total-economic-impact-asana (accessed: 29.05.2025).</li>
+<li>State of Agile Report 2023 – Electronic resource // VersionOne : official website. – URL: https://stateofagile.com/ (accessed: 29.05.2025).</li>
+<li>Digital transformation in Russia: analytical report – Electronic resource // Analytical Center under the Government of the Russian Federation : official website. – URL: https://ac.gov.ru/publication/a/28858/ (accessed: 29.05.2025).</li>
+<li>Jira – Electronic resource // Atlassian : official website. – URL: https://www.atlassian.com/software/jira (accessed: 29.05.2025).</li>
+<li>Trello – Electronic resource // Trello : official website. – URL: https://trello.com/ (accessed: 29.05.2025).</li>
+<li>Asana – Electronic resource // Asana : official website. – URL: https://asana.com/ (accessed: 29.05.2025).</li>
+</ol>
+</div>
+<footer>
+<p>© Makhalin S.A., 2025</p>
+</footer>
+</div>
+</body>
 </html>
