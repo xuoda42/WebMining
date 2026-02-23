@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="480" viewBox="0 0 360 480">
+  <rect width="100%" height="100%" fill="#e9f5f8"/>
+  <circle cx="180" cy="160" r="90" fill="#cfeff6"/>
+  <rect x="10" y="240" width="340" height="220" fill="#dff6fb"/>
+  <text x="50%" y="95%" font-size="14" text-anchor="middle" fill="#6b9aa8">placeholder 360x480</text>
+</svg>

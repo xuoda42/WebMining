@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="240" viewBox="0 0 180 240">
+  <rect width="100%" height="100%" fill="#e9f5f8"/>
+  <circle cx="90" cy="80" r="45" fill="#cfeff6"/>
+  <rect x="10" y="120" width="160" height="100" fill="#dff6fb"/>
+  <!---text x="50%" y="95%" font-size="14" text-anchor="middle" fill="#6b9aa8">placeholder 180x240</text--->
+  <img src="./my_photo.jpg" alt="Моя фотография">
+</svg>

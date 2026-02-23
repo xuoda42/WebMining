@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Abstract</title>
+    <link rel="stylesheet" href="../master_style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="brand" href="../indexe.htm">
+          <span class="logof">
+            <img src="../assets/logo.svg" alt="Logo" />
+          </span> Home </a>
+        <nav class="primary">
+          <a href="../contacts/privatee.htm">Resume</a>
+          <a href="../indexe.htm">Biography</a>
+          <a href="../diss/indexe.htm">Abstract</a>
+          <a href="../links/reporte.htm">Search Report</a>
+          <a href="../ind/indexe.htm">Individual</a>
+          <a href="./index.htm">
+            <img src="../assets/ru.png" alt="Russian" title="Russian" width="24" height="20">
+          </a>
+        </nav>
+      </header>
+      <!-- Content -->
+      <div class="section">
+        <h1>Abstract of the Master's Thesis</h1>
+        <div class="notice"> ⚠️ <b>Attention:</b> The master's thesis is currently under development. Some data and formulations may change as the research progresses. </div>
+        <p>
+          <b>Topic:</b> Development of Cloud Storage for the Educational Process
+        </p>
+        <h2>Contents</h2>
+        <ol>
+          <li>
+            <a href="#vvedenie">Introduction</a>
+          </li>
+          <li>Theoretical Information on Cloud Storages <ol>
+              <li>
+                <a href="#ponatie">1.1 The Concept of Cloud Technologies and Cloud Storage</a>
+              </li>
+              <li>
+                <a href="#klassifikaciya">1.2 Classification of Cloud Storages</a>
+              </li>
+              <li>
+                <a href="#obr_process">1.3 Cloud Storages in the Educational Process</a>
+              </li>
+              <li>
+                <a href="#preimushestva">1.4 Advantages and Disadvantages of Data Management Methods</a>
+              </li>
+              <li>
+                <a href="#sravnenie">1.5 Comparative Analysis of Existing Cloud Solutions</a>
+              </li>
+              <li>
+                <a href="#vyvody">1.6 Conclusions</a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="#literatura">References</a>
+          </li>
+        </ol>
+      </div>
+      <!-- Main part -->
+      <div class="section">
+        <h2 id="vvedenie">Introduction</h2>
+        <p>The modern educational process requires high availability and structured information. With the increasing digitalization of educational resources, there is a growing need for convenient storage, sharing, and management of data. Cloud technologies provide such capabilities, combining flexibility and scalability with minimal infrastructure costs. Their use allows teachers and students to work with materials from anywhere, ensuring the continuity of the learning process and saving resources.</p>
+        <h2>1. Theoretical Information on Cloud Storages</h2>
+        <h3 id="ponatie">1.1 The Concept of Cloud Technologies and Cloud Storage</h3>
+        <p>Cloud technologies make it possible to abstract from the physical infrastructure and manage computing resources via the Internet. They enable organizations to save on local servers while maintaining access to data from any location. There are four key models of cloud solutions:</p>
+        <ul>
+          <li>
+            <b>IaaS (Infrastructure as a Service)</b> – renting infrastructure for data storage and creating virtual machines. Advantages: flexibility and no need to maintain physical infrastructure. Disadvantages: provider dependency and limited customization.
+          </li>
+          <li>
+            <b>PaaS (Platform as a Service)</b> – providing a platform for application development and deployment. Advantage: ready-made infrastructure for rapid development startup. Disadvantage: limited portability between platforms.
+          </li>
+          <li>
+            <b>SaaS (Software as a Service)</b> – subscription to ready-to-use applications without installation. Advantages: access to services from anywhere, automatic updates. Disadvantage: constant Internet connection required and long-term subscription costs.
+          </li>
+          <li>
+            <b>FaaS (Function as a Service)</b> – executing individual functions on demand. Advantages: resource efficiency, function management handled by the provider. Disadvantage: adaptation of processes to the service architecture.
+          </li>
+        </ul>
+        <p>Cloud storages are part of these models, providing convenient data storage and scalability as the amount of information grows.</p>
+        <h3 id="klassifikaciya">1.2 Classification of Cloud Storages</h3>
+        <p>Cloud storages differ in architecture and data storage method. The main types include:</p>
+        <ul>
+          <li>Block storage – data is divided into blocks with unique identifiers. High performance, but expensive and complex to maintain.</li>
+          <li>File storage – intuitive folder and file structure, easy OS integration, but limited scalability.</li>
+          <li>Object storage – storage abstraction through APIs, supports large volumes of data, but requires mastering interfaces and configuring access.</li>
+        </ul>
+        <figure>
+          <img src="./images/figure1_en.png" alt="Classification of Cloud Storages">
+          <figcaption>Figure 1 – Classification of Cloud Storages</figcaption>
+        </figure>
+        <h3 id="obr_process">1.3 Cloud Storages in the Educational Process</h3>
+        <p>The teaching process generates various types of data: organizational materials, course content, control data, student group information, and final grades. Effective management of these resources requires tools that ensure accessibility, security, and learning progress analysis. Traditional data carriers and local storage are becoming less relevant due to scalability and collaboration limitations.</p>
+        <figure>
+          <img src="./images/figure2_en.png" alt="Types of Cloud Storages">
+          <figcaption>Figure 2 – Classification of Cloud Storages by Access Type</figcaption>
+        </figure>
+        <h3 id="preimushestva">1.4 Advantages and Disadvantages of Data Management Methods</h3>
+        <p>The need for efficient data storage in education requires analysis of existing methods of information organization:</p>
+        <table border="1" cellspacing="0" cellpadding="5">
+          <caption>Table 1 – Advantages and Disadvantages of Existing Data Management Methods in Teaching</caption>
+          <thead>
+            <tr>
+              <th>Method</th>
+              <th>Advantages</th>
+              <th>Disadvantages</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Written Media</td>
+              <td>1. No dependency on digital resources <br>2. Long-term physical storage </td>
+              <td>1. Archive overload <br>2. Information search problems <br>3. Storage risks <br>4. Duplication issues </td>
+            </tr>
+            <tr>
+              <td>Local Storage</td>
+              <td>1. Offline data access <br>2. Security </td>
+              <td>1. Data loss risks <br>2. Limited access <br>3. Poor scalability </td>
+            </tr>
+            <tr>
+              <td>Learning Systems</td>
+              <td>1. Progress tracking <br>2. Course organization <br>3. Accessibility </td>
+              <td>1. Cost <br>2. Limited metadata <br>3. Connection issues </td>
+            </tr>
+            <tr>
+              <td>Cloud Storages</td>
+              <td>1. Fast access <br>2. Scalability <br>3. Collaborative data access <br>4. Duplication </td>
+              <td>1. Server rental cost <br>2. Security concerns </td>
+            </tr>
+            <tr>
+              <td>Educational Resources</td>
+              <td>1. Accessibility</td>
+              <td>1. Limited metadata <br>2. Integration issues </td>
+            </tr>
+            <tr>
+              <td>Specialized Applications</td>
+              <td>1. Multitasking <br>2. Integrations </td>
+              <td>1. Application overload <br>2. Interchangeability <br>3. Cost </td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 id="sravnenie">1.5 Comparative Analysis of Existing Cloud Solutions</h3>
+        <p>The market offers solutions with different approaches to storage and integration. NextCloud provides a flexible and multifunctional platform with versioning support but requires complex configuration. SeaFile focuses on synchronization between devices, has a simple folder structure and user-friendly interface but limited integrations. Google Drive offers numerous integrations and an intuitive interface, but the free storage limit is low, and expansion is paid. VK Cloud provides a domestic solution with basic integrations but is currently unstable and mainly targeted at business users.</p>
+        <figure>
+          <img src="./images/figure3_en.png" alt="Types of Educational Data">
+          <figcaption>Figure 3 – Optimizing interaction and improving the effectiveness of the learning process</figcaption>
+        </figure>
+        <h3 id="vyvody">1.6 Conclusions</h3>
+        <p>Cloud technologies provide flexibility, scalability, and data accessibility, making them optimal for the educational process. A comparative analysis of existing solutions revealed insufficient focus on specific teaching tasks, confirming the relevance of developing specialized cloud storage. The implementation of such a solution will optimize course organization, enable collaboration, and preserve historical data for disciplines.</p>
+        <h2 id="literatura">References</h2>
+        <ol>
+          <li>Иванов И.И. Методы анализа данных. — Краснодар, 2025.</li>
+          <li>Дополнительные источники по облачным технологиям и хранению данных.</li>
+          <li>Облачные технологии в бизнесе: [Электронный ресурс]. – 2024. – URL: https://rb.ru/story/oblachnye-tehnologii-v-biznese (дата обращения: 20.12.2024). – Текст: электронный.</li>
+          <li>Что такое инфраструктура как услуга (IaaS)?: [Электронный ресурс]. – 2019. – URL: https://aws.amazon.com/ru/what-is/iaas (дата обращения: 20.12.2024). – Текст: электронный.</li>
+          <li>В чем разница между PaaS, SaaS, IaaS?: [Электронный ресурс]. – 2024. – URL: https://sailet.kz/saas_paas_iaas (дата обращения: 21.12.2024). – Текст: электронный.</li>
+          <li>Что такое облачное хранилище: принципы работы, виды, плюсы и минусы: [Электронный ресурс]. – 2022. – URL: https://sailet.kz/saas_paas_iaas (дата обращения: 22.12.2024). – Текст: электронный.</li>
+          <li>IDC: к 2025 году общий объем новых данных достигнет 175 зеттабайт: [Электронный ресурс]. – 2019. – URL: https://www.tssonline.ru/news/idc-k-2025-godu-obshiy-obiom-novih-dannih-dostignet-175-zetabait (дата обращения: 22.12.2024). – Текст: электронный.</li>
+          <li>В чем разница между блочным, объектным и файловым хранилищами? [Электронный ресурс]. – 2022. – URL: https://aws.amazon.com/ru/compare/the-difference-between-block-file-object-storage (дата обращения: 26.12.2024). – Текст: электронный.</li>
+          <li>Многоуровневая расширяемая архитектура хранилищ бизнес-информации. LSA и SAP BW. Традиционный подход: [Электронный ресурс]. – 2024. – URL: https://habr.com/ru/articles/269727/ (дата обращения: 26.12.2024). – Текст: электронный.</li>
+          <li>Файловые системы хранения данных [Электронный ресурс]. – 2020. – URL: https://itelon.ru/blog/faylovye-sistemy-khraneniya-dannykh (дата обращения: 26.12.2024). – Текст: электронный.</li>
+          <li>Информационные образовательные ресурсы: классификация, разработка и реализация: [Электронный ресурс]. – 2024. – URL: https://www.work5.ru/spravochnik/pedagogika/informacionnye_obrazovatel_nye_resursy_klassifikac (дата обращения: 27.12.2024). – Текст: электронный.</li>
+          <li>Носитель информации: [Электронный ресурс]. – 2015. – URL: https://ru.wikipedia.org/wiki/Носитель_информации/ (дата обращения: 28.12.2024). – Текст: электронный.</li>
+          <li>Современные системы хранения данных (СХД): [Электронный ресурс]. – 2023. – URL: https://www.decosystems.ru/sovremennye-sistemy-hraneniya-dannyh-shd (дата обращения: 28.12.2024). – Текст: электронный.</li>
+          <li>Seafile: [Электронный ресурс]. – 2018. – URL: https://en.wikipedia.org/wiki/Seafile (дата обращения: 29.12.2024). – Текст: электронный.</li>
+          <li>NextCloud: [Электронный ресурс]. – 2021. – URL: https://nextcloud.com/ (дата обращения: 29.12.2024). – Текст: электронный.</li>
+          <li>Google Drive: [Электронный ресурс]. – 2023. – URL: https://www.google.com/drive/ (дата обращения: 30.12.2024). – Текст: электронный.</li>
+          <li>VK Cloud: [Электронный ресурс]. – 2022. – URL: https://vk.com/cloud (дата обращения: 30.12.2024). – Текст: электронный.</li>
+          <li>Облачные технологии в образовании: [Электронный ресурс]. – 2020. – URL: https://edutech.ru/articles/oblachnye-tehnologii-v-obrazovanii (дата обращения: 31.12.2024). – Текст: электронный.</li>
+          <li>Безопасность облачных хранилищ: [Электронный ресурс]. – 2021. – URL: https://habr.com/ru/articles/563728/ (дата обращения: 31.12.2024). – Текст: электронный.</li>
+          <li>Сравнение облачных хранилищ: [Электронный ресурс]. – 2022. – URL: https://www.comparitech.com/ru/cloud/storage-comparison/ (дата обращения: 01.01.2025). – Текст: электронный.</li>
+          <li>Версионирование в облачных хранилищах: [Электронный ресурс]. – 2023. – URL: https://nextcloud.com/versioning/ (дата обращения: 01.01.2025). – Текст: электронный.</li>
+          <li>Коллективный доступ к данным: [Электронный ресурс]. – 2021. – URL: https://www.techradar.com/ru/news/best-cloud-storage-for-collaboration (дата обращения: 02.01.2025). – Текст: электронный.</li>
+          <li>Облачные решения для малого бизнеса: [Электронный ресурс]. – 2020. – URL: https://rb.ru/story/cloud-business-solutions/ (дата обращения: 02.01.2025). – Текст: электронный.</li>
+          <li>Масштабируемость облачных хранилищ: [Электронный ресурс]. – 2022. – URL: https://www.cloudwards.net/ru/cloud-storage-scalability/ (дата обращения: 03.01.2025). – Текст: электронный.</li>
+          <li>Сравнение IaaS и PaaS для образовательных организаций: [Электронный ресурс]. – 2021. – URL: https://edutech.ru/articles/iaas-vs-paas (дата обращения: 03.01.2025). – Текст: электронный.</li>
+          <li>Облачные технологии и GDPR: [Электронный ресурс]. – 2021. – URL: https://habr.com/ru/articles/592345/ (дата обращения: 04.01.2025). – Текст: электронный.</li>
+          <li>Эволюция облачных хранилищ: [Электронный ресурс]. – 2020. – URL: https://www.datamation.com/cloud-evolution/ (дата обращения: 04.01.2025). – Текст: электронный.</li>
+          <li>Платформы SaaS для образования: [Электронный ресурс]. – 2022. – URL: https://edutech.ru/articles/saas-platforms/ (дата обращения: 05.01.2025). – Текст: электронный.</li>
+          <li>Файловые и объектные хранилища: практическое руководство: [Электронный ресурс]. – 2021. – URL: https://aws.amazon.com/ru/articles/file-vs-object-storage/ (дата обращения: 05.01.2025). – Текст: электронный.</li>
+          <li>Интеграция облачных хранилищ: [Электронный ресурс]. – 2023. – URL: https://www.techrepublic.com/ru/article/integrating-cloud-storage/ (дата обращения: 06.01.2025). – Текст: электронный.</li>
+          <li>Управление данными в облаке: [Электронный ресурс]. – 2022. – URL: https://www.cio.com/article/ru/cloud-data-management.html (дата обращения: 06.01.2025). – Текст: электронный.</li>
+          <li>Архитектура облачных сервисов: [Электронный ресурс]. – 2021. – URL: https://aws.amazon.com/architecture/ (дата обращения: 07.01.2025). – Текст: электронный.</li>
+          <li>Облачные хранилища для студентов: [Электронный ресурс]. – 2022. – URL: https://www.edutopia.org/article/cloud-storage-students (дата обращения: 07.01.2025). – Текст: электронный.</li>
+          <li>Сравнение Google Drive, Dropbox и OneDrive: [Электронный ресурс]. – 2023. – URL: https://www.lifewire.com/best-cloud-storage-4176970 (дата обращения: 08.01.2025). – Текст: электронный.</li>
+          <li>Облачные технологии и безопасность: [Электронный ресурс]. – 2021. – URL: https://www.csoonline.com/article/3233981/cloud-security.html (дата обращения: 08.01.2025). – Текст: электронный.</li>
+          <li>NextCloud в образовательных учреждениях: [Электронный ресурс]. – 2023. – URL: https://nextcloud.com/education/ (дата обращения: 09.01.2025). – Текст: электронный.</li>
+          <li>Влияние облачных технологий на образовательный процесс: [Электронный ресурс]. – 2022. – URL: https://edtechmagazine.com/k12/article/2022/01/cloud-impact-education (дата обращения: 09.01.2025). – Текст: электронный.</li>
+          <li>Облачные вычисления и хранение данных: [Электронный ресурс]. – 2020. – URL: https://www.ibm.com/cloud/learn/cloud-storage (дата обращения: 10.01.2025). – Текст: электронный.</li>
+          <li>Функциональные возможности SeaFile: [Электронный ресурс]. – 2021. – URL: https://www.seafile.com/en/features/ (дата обращения: 10.01.2025). – Текст: электронный.</li>
+          <li>Облачные сервисы для преподавателей: [Электронный ресурс]. – 2023. – URL: https://edtechmagazine.com/k12/article/2023/02/cloud-services-teachers (дата обращения: 11.01.2025). – Текст: электронный.</li>
+        </ol>
+      </div>
+      <footer>
+        <p>© Shirko A.N., 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
