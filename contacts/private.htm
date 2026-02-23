@@ -1,80 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Резюме — Махалин С.А.</title>
-  <link rel="stylesheet" href="../master_style.css">
-</head>
-<body class="resume-page">
-  <header>
-    <h1>Резюме — Махалин Семён Александрович</h1>
-    <a class="lang-switch" href="./privatee.htm" title="English version">
-      <img src="../assets/en.png" alt="EN">
-    </a>
-  </header>
-
-  <main>
-    <nav>
-      <div class="logo">
-        <a href="../index.htm"><img src="../assets/logo.png" alt="Логотип"></a>
-        <p><strong>Главное меню</strong></p>
-      </div>
-      <a href="../index.htm">Биография</a>
-      <a href="../contacts/private.htm">Резюме</a>
-      <a href="../diss/index.htm">Реферат</a>
-      <a href="../library/index.htm">Библиотека</a>
-      <a href="../links/index.htm">Ссылки</a>
-      <a href="../links/report.htm">Отчет о поиске</a>
-      <a href="../ind/index.htm">Индивидуальный</a>
-    </nav>
-
-    <section>
-      <div class="profile-header">
-        <img src="../assets/my_photo.jpg" alt="Фото Махалина С.А.">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="../master_style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="brand" href="../index.htm">
+          <span class="logof">
+            <img src="../assets/logo.svg" alt="Логотип" />
+          </span> Главная </a>
+        <nav class="primary">
+          <a href="../contacts/private.htm">Резюме</a>
+          <a href="../index.htm">Биография</a>
+          <a href="../diss/index.htm">Реферат</a>
+          <a href="../library/index.htm">Библиотека</a>
+          <a href="../links/index.htm">Ссылки</a>
+          <a href="../links/report.htm">Отчет о поиске</a>
+          <a href="../ind/index.htm">Индивидуальный</a>
+          <a href="./privatee.htm">
+            <img src="../assets/en.png" alt="Английский" title="Английский" width="24" height="20">
+          </a>
+        </nav>
+      </header>
+      <section class="hero">
+        <img src="../assets/my_photo.jpg" alt="photo 90x120">
         <div>
-          <h2>Махалин Семён Александрович</h2>
-          <p><em>Студент Кубанского государственного университета, направление «Прикладная математика и информатика»</em></p>
-          <p>
-            Я программист с интересом к практической разработке: люблю собирать рабочие решения, улучшать качество кода
-            и разбираться в том, как устроены системы «под капотом». С детства увлекался IT, делал сайты и постепенно
-            пришел к профессиональной разработке.
+          <h1>Махалин Семен Александрович</h1>
+          <p>Магистрант КубГУ, направление 01.04.02 «Прикладная математика и информатика»</p>
+          <p style="margin-top:10px;color:var(--muted)">
+          <p>Студент с глубокими знаниями веб-технологий, анализа данных и программирования. Имею опыт работы с бэкенд-разработкой и взаимодействием с бизнес-процессами.</p>
           </p>
         </div>
-      </div>
-
-      <div class="resume-section">
-        <h3>Краткое резюме</h3>
-        <table>
-          <tr><th>ФИО</th><td>Махалин Семён Александрович</td></tr>
-          <tr><th>Дата рождения</th><td>—</td></tr>
-          <tr><th>Место рождения</th><td>Ставрополь, Россия</td></tr>
-          <tr><th>Образование</th><td>Кубанский государственный университет, направление «Прикладная математика и информатика» (с 2020)</td></tr>
-          <tr><th>Языки</th><td>Русский (родной), Английский (—)</td></tr>
-          <tr><th>Личные достижения</th><td>Ранний интерес к IT, первые веб-проекты, постоянное самообучение и развитие инженерных навыков</td></tr>
-          <tr><th>Хобби и интересы</th><td>Программирование, веб-разработка, современные технологии, развитие инженерного мышления</td></tr>
-          <tr><th>Личные качества</th><td>Ответственность, системность, обучаемость, внимательность к деталям</td></tr>
-          <tr><th>Профессиональные навыки</th><td>
-            1. Разработка программного обеспечения<br>
-            2. Веб-технологии и создание сайтов<br>
-            3. Работа с базами данных и API<br>
-            4. Поддержка и развитие IT-сервисов
-          </td></tr>
-          <tr><th>Курсы и гранты</th><td>—</td></tr>
-          <tr><th>Опыт работы</th><td>Программист в компании «Медрокет» (настоящее время)</td></tr>
-          <tr><th>Планы на будущее</th><td>Развиваться как разработчик, участвовать в значимых проектах, углубляться в инженерные практики и архитектуру</td></tr>
-          <tr><th>Контакты</th><td>
-            E-mail: <a href="mailto:yourmail@example.com">yourmail@example.com</a><br>
-            Телефон: +7 (—) ————<br>
-            Telegram: <a href="https://t.me/your_tg" target="_blank">@your_tg</a>
-          </td></tr>
+      </section>
+      <div class="section">
+        <h2>Краткое резюме</h2>
+        <table class="resume">
+          <tr>
+            <td class="c1">ФИО</td>
+            <td>Махалин Семен Александрович</td>
+          </tr>
+          <tr>
+            <td class="c1">Дата рождения</td>
+            <td>2002</td>
+          </tr>
+          <tr>
+            <td class="c1">Место рождения</td>
+            <td>Буденновск, Россия</td>
+          </tr>
+          <tr>
+            <td class="c1">Образование</td>
+            <td>Бакалавриат и магистратура Кубанского государственного университета, направление «Прикладная математика и информатика»</td>
+          </tr>
+          <tr>
+            <td class="c1">Языки</td>
+            <td>Русский (родной), Английский (intermediate)</td>
+          </tr>
+          <tr>
+            <td class="c1">Личные достижения</td>
+            <td>Участие в школьных олимпиадах по информатике, выход на краевой этап, участие в учебных и исследовательских проектах.</td>
+          </tr>
+          <tr>
+            <td class="c1">Хобби и интересы</td>
+            <td>Веб-технологии, программирование, анализ данных, компьютерные игры</td>
+          </tr>
+          <tr>
+            <td class="c1">Личные качества</td>
+            <td>Целеустремленность, ответственность, организованность, стремление к профессиональному росту</td>
+          </tr>
+          <tr>
+            <td class="c1">Профессиональные и компьютерные навыки</td>
+            <td> 1. Операционные системы и серверные технологии <br> 2. Базы данных и веб-разработка <br> 3. Языки программирования: Python, Java, Kotlin <br> 4. Работа с API и облачными технологиями </td>
+          </tr>
+          <tr>
+            <td class="c1">Дополнительные курсы и гранты</td>
+            <td>Курсы по алгоритмам и управлению проектами, участие в международных и внутренних образовательных проектах</td>
+          </tr>
+          <tr>
+            <td class="c1">Профессиональный опыт</td>
+            <td>Работа в отделе разработки MedTech, участие в проектах по автоматизации и интеграции IT-систем</td>
+          </tr>
+          <tr>
+            <td class="c1">Планы на будущее</td>
+            <td>Углубление профессиональных знаний, участие в крупных IT-проектах, развитие карьеры в программировании и управлении проектами</td>
+          </tr>
+          <tr>
+            <td class="c1">Контактная информация</td>
+            <td>E-mail: sem.mahalin@yandex.ru <br> Телефон: 8-(996)-630-21-33 <br> Telegram: <a href="https://t.me/xuoda">@xuoda</a>
+            </td>
+          </tr>
         </table>
       </div>
-    </section>
-  </main>
-
-  <footer>
-    © Махалин С.А., 2025
-  </footer>
-</body>
+      <footer>
+        <p>© Махалин С.А., 2025</p>
+      </footer>
+    </div>
+  </body>
 </html>
